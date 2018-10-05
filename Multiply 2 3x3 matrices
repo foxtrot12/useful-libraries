@@ -1,0 +1,18 @@
+#include <iostream>
+#include <conio.h>
+//multiply 2 3x3 matrices
+
+int m[3][3];
+mult(int a[*][3], int b[*][3])
+{
+     
+    int i, j;
+    for(i=0 ; i<3 ; i++)
+    {
+        for(j=0 ; j<3 ; j++)
+        {
+            m[i][j]= a[i][0]*b[0][j] + a[i][1]*b[1][j] + a[i][2]*[2][j];
+        }
+    }
+
+}
